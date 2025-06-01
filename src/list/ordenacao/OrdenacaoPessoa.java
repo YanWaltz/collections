@@ -1,4 +1,4 @@
-package ordenacao;
+package list.ordenacao;
 
 import java.util.Collections;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class OrdenacaoPessoa{
 
-    private List<Pessoa> pessoaList;
+    private final List<Pessoa> pessoaList;
 
     public OrdenacaoPessoa(){
         this.pessoaList = new ArrayList<>();

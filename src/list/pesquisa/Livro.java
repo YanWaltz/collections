@@ -1,10 +1,10 @@
-package pesquisa;
+package list.pesquisa;
 
 public class Livro {
 
-    private String titulo;
-    private String autor;
-    private int anoPublicacao;
+    private final String titulo;
+    private final String autor;
+    private final int anoPublicacao;
 
         public Livro(String titulo, String autor, int anoPublicacao){
             this.titulo = titulo;

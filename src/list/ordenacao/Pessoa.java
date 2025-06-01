@@ -1,11 +1,11 @@
-package ordenacao;
+package list.ordenacao;
 
 import java.util.Comparator;
 
 public class Pessoa implements Comparable<Pessoa>  {
-    private String nome;
-    private int idade;
-    private double altura;
+    private final String nome;
+    private final int idade;
+    private final double altura;
 
 
     public Pessoa(String nome, int idade, double altura) {

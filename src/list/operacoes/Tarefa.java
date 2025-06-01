@@ -1,8 +1,8 @@
-package operacoes;
+package list.operacoes;
 
 public class Tarefa {
 
-    private String descricao;
+    private final String descricao;
 
     public Tarefa(String descricao) {
         this.descricao = descricao;

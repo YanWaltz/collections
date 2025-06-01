@@ -1,11 +1,11 @@
-package pesquisa;
+package list.pesquisa;
 
 import java.util.List;
 import java.util.ArrayList;
 
 public class CatalogoLivros {
 
-    List<Livro> livroList;
+   private final List<Livro> livroList;
 
     public CatalogoLivros(){
         this.livroList = new ArrayList<>();
@@ -62,7 +62,7 @@ public class CatalogoLivros {
         catalogoLivros.adicionarLivro("Roube Como um Artista", "Austin Kleon", 2012);
 
 
-        //System.out.println(catalogoLivros.pesquisarPorIntervaloAnos(2000, 20015));
+        //System.out.println(catalogoLivros.pesquisarPorIntervaloAnos(2000, 2015));
         //System.out.println(catalogoLivros.pesquisarAutor("J. R. R. Tolkien"));
         System.out.println(catalogoLivros.pesquisarPorTitulo("Código Limpo"));
 
